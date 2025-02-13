@@ -9,26 +9,21 @@
 </head>
 <body>
     <div class="menu">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Products</a>
-                <ul class="dropdown">
-                    <li><a href="#">Laptops</a>
-                        <ul class="dropdown">
-                            <li><a href="#">Acer</a></li>
-                            <li><a href="#">ASUS</a></li>
-                            <li><a href="#">Lenovo</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Desktops</a>
-                        <ul class="dropdown">
-                            <li><a href="#">Dell</a></li>
-                            <li><a href="#">HP</a></li>
-                            <li><a href="#">Samsung</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li><a href="#">Services</a></li>
+        <a href="#inicio">Inicio</a>
+        <a href="#equipos">Equipos</a>
+        <a href="#areas">Áreas</a>
+        <div class="login-form">
+            <input type="text" placeholder="Usuario" id="username">
+            <input type="password" placeholder="Contraseña" id="password">
+            <button onclick="login()">Iniciar Sesión</button>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Bienvenido a Nuestro Sitio</h1>
+        <p>Selecciona una opción del menú para navegar.</p>
+    </div>
+    <footer>
+        <p>&copy; 2023 PC-Care. All rights reserved.</p>
+    </footer>
 </body>
 </html>
